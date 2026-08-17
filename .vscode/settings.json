@@ -7,6 +7,6 @@
   "editor.formatOnSave": true,
   "[c]": { "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd" },
   "code-runner.executorMap": {
-    "c": "cd $dir && C:/msys64/ucrt64/bin/gcc.exe -std=c23 -Wall -Wextra $fileName -o $dir/$fileNameWithoutExt.exe && $dir/$fileNameWithoutExt.exe"
+    "c": "cd $dir && set PATH=C:\\msys64\\ucrt64\\bin;%PATH% && C:/msys64/ucrt64/bin/gcc.exe -std=c23 -Wall -Wextra $fileName -o $dir/$fileNameWithoutExt.exe && $dir/$fileNameWithoutExt.exe"
   }
 }
