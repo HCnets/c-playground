@@ -1,0 +1,12 @@
+{
+  "cmake.configureOnOpen": true,
+  "cmake.useCMakePresets": "always",
+  "clangd.arguments": [
+    "--compile-commands-dir=${workspaceFolder}/build"
+  ],
+  "editor.formatOnSave": true,
+  "[c]": { "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd" },
+  "code-runner.executorMap": {
+    "c": "cd $dir && gcc -std=c23 -Wall -Wextra $fileName -o $dir/$fileNameWithoutExt.exe && $dir/$fileNameWithoutExt.exe"
+  }
+}
