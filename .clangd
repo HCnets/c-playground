@@ -1,4 +1,4 @@
 # clangd 配置：和 CMake 的编译参数保持一致
 CompileFlags:
-  Add: [-std=c23, -Wall, -Wextra]
+  Add: [-std=c23, -Wall, -Wextra, -Wpedantic]
   CompilationDatabase: build
