@@ -7,6 +7,7 @@
   "editor.formatOnSave": true,
   "[c]": { "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd" },
   "code-runner.executorMap": {
-    "c": "cd $dir && set PATH=C:\\msys64\\ucrt64\\bin;%PATH% && C:/msys64/ucrt64/bin/gcc.exe -std=c23 -Wall -Wextra $fileName -o $fileNameWithoutExt.exe && $fileNameWithoutExt.exe"
+    "c": "cd $dir && set PATH=C:\\msys64\\ucrt64\\bin;%PATH% && C:/msys64/ucrt64/bin/gcc.exe -std=c23 -Wall -Wextra $fileName -o $fileNameWithoutExt.exe && $fileNameWithoutExt.exe",
+    "cpp": "cd $dir && set PATH=C:\\msys64\\ucrt64\\bin;%PATH% && C:/msys64/ucrt64/bin/g++.exe -std=c++17 -Wall -Wextra $fileName -o $fileNameWithoutExt.exe && $fileNameWithoutExt.exe"
   }
 }
